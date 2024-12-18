@@ -5,3 +5,6 @@
 2. Завьялова Арина
 3. Сунагатова Зарина
 4. Сысоева Кира
+
+Ссылка на видеозапись полёта в KSP: 
+https://drive.google.com/file/d/1am9OpSeJeZDvJmuWliaMaDkNvASJIrzv/view?usp=sharing
