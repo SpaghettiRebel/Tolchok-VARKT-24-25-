@@ -22,8 +22,6 @@ stage_resources = [
     for i in range(3, -1, -1)
 ]
 
-total_fuel = vessel.resources.amount("LiquidFuel") + vessel.resources.amount("Oxydiser")
-
 vessel.control.sas = False
 vessel.control.rcs = False
 vessel.control.throttle = 1.0
@@ -60,11 +58,9 @@ while True:
             {
                 "time": math.floor(ut() - start_time),
                 "altitude": altitude(),
-                "Fuel": total_fuel - current_fuel,
             }
         )
         save_flight_data(flight_data)
-        total_fuel = current_fuel
 
     time.sleep(1)
 
